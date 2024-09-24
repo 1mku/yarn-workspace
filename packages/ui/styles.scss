@@ -1,0 +1,12 @@
+@use 'sass:string';
+
+@use '@carbon/react' with (
+    $css--font-face: false,
+    /// If true, include reset CSS
+    $css--reset: true,
+    /// If true, include default type
+    $css--default-type: true,
+    $font-families: (
+        'sans': 'string.unquote('Inter', sans-serif)'
+    )
+);

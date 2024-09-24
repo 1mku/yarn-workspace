@@ -1,0 +1,9 @@
+{
+	"extends": "@project/ts-config/node",
+	"include": ["src/**/*.ts"],
+	"compilerOptions": {
+		"outDir": "./dist",
+		"baseUrl": ".",
+		"rootDir": "."
+	}
+}

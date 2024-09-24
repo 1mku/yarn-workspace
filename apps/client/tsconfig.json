@@ -1,0 +1,13 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": "@project/ts-config/remix",
+	"include": [
+		"./**/*.ts",
+		"./**/*.tsx",
+		"./**/.server/**/*.ts",
+		"./**/.server/**/*.tsx",
+		"./**/.client/**/*.ts",
+		"./**/.client/**/*.tsx"
+	]
+
+}

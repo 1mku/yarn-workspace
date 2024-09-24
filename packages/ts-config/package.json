@@ -1,0 +1,10 @@
+{
+	"name": "@project/ts-config",
+	"version": "0.0.1",
+	"private": true,
+	"exports": {
+		"./base": "./base.json",
+		"./remix": "./remix.json",
+		"./node": "./node22.json"
+	}
+}
